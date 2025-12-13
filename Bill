@@ -1,0 +1,10 @@
+import java.util.Scanner;
+ class Bill {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        double bill=sc.nextDouble();
+        int friends=3;
+        double eachPay=bill/friends;
+        System.out.println("Each Friend Pays:"+eachPay);
+    }
+}
