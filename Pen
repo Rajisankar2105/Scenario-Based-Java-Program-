@@ -1,0 +1,11 @@
+import java.util.Scanner;
+ class PenOffer {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        double pricePerPen = sc.nextDouble();
+        int pensBought = sc.nextInt();
+        int pensToPay = pensBought * 3 / 5;
+        double totalCost = pensToPay * pricePerPen;
+        System.out.println("Pens to Pay: " + pensToPay + " Total Cost: " + totalCost);
+    }
+}
