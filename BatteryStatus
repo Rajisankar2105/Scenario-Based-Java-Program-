@@ -1,0 +1,14 @@
+import java.util.Scanner;
+class BatteryStatus {
+public static void main(String[] args) {
+Scanner sc = new Scanner(System.in);
+System.out.print("Enter battery percentage: ");
+int bat=sc.nextInt();
+if(bat>=80)
+System.out.println("Battery Full");
+else if (bat>=50)
+System.out.println("50% Javaonsumed");
+ else
+System.out.println("Low Battery");
+    }
+}
