@@ -1,0 +1,11 @@
+import java.util.Scanner;
+class MangoOffer {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int mangoes = sc.nextInt();
+        double price = sc.nextDouble();
+        int totalMangoes = mangoes * 4 / 3;
+        double amount = (mangoes * price) - (price * (mangoes / 3));
+        System.out.println("Total Mangoes: " + totalMangoes + " Amount: " + amount);
+    }
+}
