@@ -1,0 +1,12 @@
+import java.util.Scanner;
+class WeatherCondition {
+public static void main(String[] args) {
+Scanner sc=new Scanner(System.in);
+System.out.print("Enter temp: ");
+int t = sc.nextInt();
+        if (t<10)System.out.println("Cold");
+        else if(t<20)System.out.println("Pleasant");
+        else if (t<35)System.out.println("Hot");
+        else System.out.println("Heatwave");
+    }
+}
