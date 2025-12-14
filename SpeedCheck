@@ -1,0 +1,13 @@
+
+import java.util.Scanner;
+ class SpeedCheck {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Enter speed: ");
+        int sp=sc.nextInt();
+        if (sp > 100) 
+        System.out.println("Overspeeding Fine imposed");
+        else 
+        System.out.println("Speed within limit");
+    }
+}
