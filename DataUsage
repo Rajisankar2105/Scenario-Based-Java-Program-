@@ -1,0 +1,14 @@
+import java.util.Scanner;
+class DataUsage {
+public static void main(String[] args) {
+       Scanner sc=new Scanner(System.in);
+        System.out.print("Enter usage in MB:");
+        int mb=sc.nextInt();
+        if(mb<=500) 
+System.out.println("Low Data");
+        else if(mb<=2000) 
+System.out.println("Half Javaonsumed");
+        else 
+System.out.println("Data Over");
+    }
+}
