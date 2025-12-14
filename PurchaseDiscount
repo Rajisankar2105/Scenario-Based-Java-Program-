@@ -1,0 +1,14 @@
+import java.util.Scanner;
+class PurchaseDiscount {
+public static void main(String[] args) {
+Scanner sc=new Scanner(System.in);
+System.out.print("Enter purchase amount: ");
+double amount=sc.nextDouble();
+double disc;
+if(amount>2000)disc=amount*0.20;
+else if(amount>1000)disc=amount*0.10;
+else disc=amount*0.05;
+System.out.println("Discount:"+disc);
+System.out.println("Final amount:"+(amount-disc));
+}
+}
