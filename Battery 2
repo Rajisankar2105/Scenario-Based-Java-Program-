@@ -1,0 +1,11 @@
+import java.util.Scanner;
+public class BatteryStatus2 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter battery %: ");
+        int b = sc.nextInt();
+if (b >= 80) System.out.println("Full");
+        else if (b >= 30) System.out.println("Moderate");
+        else System.out.println("Low");
+    }
+}
