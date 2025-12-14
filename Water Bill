@@ -1,0 +1,13 @@
+import java.util.Scanner;
+ class WaterBill {
+public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Enter liters used: ");
+        int l =sc.nextInt();
+        double bill;
+        if(l <= 1000)bill=0
+        else if(l<=2000)bill=(l - 1000)*5;
+        else bill =(1000*5)+(l-2000)*10;
+        System.out.println("Water Bill:"+bill);
+    }
+}
