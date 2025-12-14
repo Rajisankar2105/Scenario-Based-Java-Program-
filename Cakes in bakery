@@ -1,0 +1,11 @@
+import java.util.Scanner;
+class Cakes{
+	public static void main(String[] args) {
+	    Scanner sc=new Scanner(System.in);
+	    int cakesPerHours=sc.nextInt();
+	    int hours=sc.nextInt();
+	    int totalCakes = cakesPerHours*hours;
+System.out.println("Total Cakes:"+totalCakes);
+    
+}
+}
