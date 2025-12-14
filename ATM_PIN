@@ -1,0 +1,13 @@
+import java.util.Scanner;
+class ATM_PIN{
+public static void main(String[]args){
+String stored="1234";
+Scanner sc =new Scanner(System.in);
+System.out.print("Enter PIN:");
+String pin =sc.next();
+if(pin.equals(stored)) 
+System.out.println("PIN Valid");
+else 
+System.out.println("Invalid PIN");
+}
+}
