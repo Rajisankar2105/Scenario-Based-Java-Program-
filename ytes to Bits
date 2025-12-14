@@ -1,0 +1,12 @@
+import java.util.Scanner;
+class BytesToBits{
+	public static void main(String[] args) {
+	    Scanner sc=new Scanner(System.in);
+double speed=sc.nextDouble();
+double time=sc.nextDouble();
+double distasncekm=speed*time;
+double distancemeters= distancekm * 1000;	
+System.out.println("Distance:"+distancemeters+"meters");
+    
+}
+}
